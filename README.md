@@ -5,14 +5,15 @@
 ## Установка
 
 Для установки библиотеки вам необходимо использовать данную команду:
-ВАЖНО: Указывайте ИМЕННО ссылку на библиотеку
 ```bash
-pip install git+
+pip install git+https://github.com/mistertayodimon/txt-reader/tree/main
 ```
 УСТАНАВЛИВАТЬ ТОЛЬКО ПО ЭТОЙ КОМАНДЕ !!!
 
 Пример использования(после установки):
+```bash
 from txt_reader import read_file
 
 content = read_file('ваш_файл.txt')
 print(content)
+```
