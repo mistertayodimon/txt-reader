@@ -6,7 +6,7 @@
 
 Для установки библиотеки вам необходимо использовать данную команду:
 ```bash
-pip install git+https://github.com/mistertayodimon/txt-reader/tree/main
+pip install git+https://github.com/mistertayodimon/txt-reader/
 ```
 УСТАНАВЛИВАТЬ ТОЛЬКО ПО ЭТОЙ КОМАНДЕ !!!
 
