@@ -1,0 +1,20 @@
+Чтение одного TXT:
+import txt_reader
+
+content = txt_reader.read_file("example.txt")
+print(content)
+Чтение нескольких TXT:
+files_content = txt_reader.read_multiple_files("file1.txt", "file2.txt", "file3.txt")
+for filename, content in files_content.items():
+    print(f"{filename}:\n{content}\n")
+Создание TXT:
+txt_reader.create_file("new_file.txt", "Этот текст будет в файле")
+Редактирование TXT:
+txt_reader.edit_file("new_file.txt", "\nДобавленная строка", mode="a")  # mode="a" добавляет в конец файла
+Удаление TXT:
+txt_reader.delete_file("old_file.txt")
+Поиск TXT в каталоге:
+files = txt_reader.find_txt_files("/storage/emulated/0/Documents")  # Укажи нужный путь
+print("Найденные файлы:", files)
+ВАЖНО: Это не команды которые выполняются в терминале/интерпретаторе Python.
+Для выполнения указанных строх вам необходимо сделать отдельные файлы со скриптами с указанными строками
